@@ -22,6 +22,7 @@
 - Removed +load static initializer from ASDisplayNode. [Adlai Holler](https://github.com/Adlai-Holler)
 - Optimized ASNetworkImageNode loading and resolved edge cases where the image provided to the delegate was not the image that was loaded. [Adlai Holler](https://github.com/Adlai-Holler) [#778](https://github.com/TextureGroup/Texture/pull/778/)
 - Make `ASCellNode` tint color apply to table view cell accessories. [Vladyslav Chapaev](https://github.com/ShogunPhyched) [#764](https://github.com/TextureGroup/Texture/pull/764)
+- Fix UIResponder handling with view backing ASDisplayNode. [Michael Schneider](https://github.com/maicki) [#789] (https://github.com/TextureGroup/Texture/pull/789/)
 
 ## 2.6
 - [Xcode 9] Updated to require Xcode 9 (to fix warnings) [Garrett Moon](https://github.com/garrettmoon)
